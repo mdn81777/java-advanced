@@ -16,7 +16,7 @@ enum Date {
     }
     //定义一个静态方法，根据一个简称得到完整的星期名称
     public static Date getResult(String input) {
-        // 根据输入获取枚举值
+
         switch (input) {
             case "mon":
                 return Date.MONDAY;
@@ -39,8 +39,8 @@ enum Date {
 }
 public class EnumTest {
     public static void main(String[] args) {
-        Date dateArry[] = Date.values();
-        for (Date date :dateArry){
+        Date dateArray[] = Date.values();
+        for (Date date :dateArray){
             System.out.println(date + " " + date.getDateName());
         }
         System.out.println("\n请输入需要查询的英文星期单词的前三个小写字母：");
