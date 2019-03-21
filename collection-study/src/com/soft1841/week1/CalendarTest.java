@@ -10,7 +10,7 @@ public class CalendarTest {
     public static void main(String[] args) {
         //创建Calendar对象
         Calendar c = Calendar.getInstance();
-        //获取年
+        //获取 年
         int year = c.get(Calendar.YEAR);
         //获取月
         int month = c.get(Calendar.MONTH);
