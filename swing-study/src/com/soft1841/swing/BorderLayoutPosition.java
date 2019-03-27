@@ -1,4 +1,4 @@
-package com.soft1841.week1;
+package com.soft1841.swing;
 
 import javax.swing.*;
 import java.awt.*;

@@ -1,4 +1,4 @@
-package com.soft1841.week1;
+package com.soft1841.swing;
 
 import javax.swing.*;
 import java.awt.*;
@@ -21,9 +21,13 @@ public class BorderLayoutTest extends JFrame {
                 eastBtn = new JButton("东邪");
         //中间添加按钮
         c.add(centerBtn,BorderLayout.CENTER);
+        centerBtn.setBackground(Color.YELLOW);
         c.add(northBtn,BorderLayout.NORTH);
+        northBtn.setBackground(Color.GREEN);
         c.add(southBtn,BorderLayout.SOUTH);
+        southBtn.setBackground(Color.PINK);
         c.add(westBtn,BorderLayout.WEST);
+        westBtn.setBackground(Color.LIGHT_GRAY);
         c.add(eastBtn,BorderLayout.EAST);
         //设置窗体大小
         setSize(550,400);

@@ -1,6 +1,4 @@
-package com.soft1841.week1;
-
-import sun.plugin2.message.transport.SerializingTransport;
+package com.soft1841.swing;
 
 import javax.swing.*;
 import java.awt.*;
