@@ -36,7 +36,7 @@ public class LoginFrame extends JFrame {
         passwordField.setFont(font);
         roleLabel = new JLabel("角色");
         roleLabel.setFont(font);
-        String[] roles = {"教室","学生"};
+        String[] roles = {"教师","学生"};
         roleComboBox = new JComboBox<>(roles);
         roleComboBox.setFont(font);
         confirmButton = new JButton("确认");
