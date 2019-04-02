@@ -30,6 +30,5 @@ public class WriteCopy {
         File destFile3 = new File("D:/word3.txt");
         OutputStream out3 = new FileOutputStream(destFile3);
         PrintStream printStream = new PrintStream(out3);
-
     }
 }

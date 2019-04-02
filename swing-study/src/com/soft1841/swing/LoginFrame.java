@@ -56,7 +56,6 @@ public class LoginFrame extends JFrame {
         cancelButton.setBounds(380,300,100,40);
         confirmButton.setUI(new BEButtonUI().setNormalColor(BEButtonUI.NormalColor.blue));
         cancelButton.setUI(new BEButtonUI().setNormalColor(BEButtonUI.NormalColor.green));
-
         add(accountLabel);
         add(accountField);
         add(passwordField);
