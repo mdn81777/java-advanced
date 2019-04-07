@@ -5,7 +5,7 @@ import java.io.*;
 public class BufferedTest {
     public static void main(String[] args) {
         //定义字符数组
-        String conten[] = {
+        String content[] = {
                 "你不喜欢我，","我一点都不介意。","因为我活下来，","不是为了取悦你！"
         };
         File file = new File("word.txt");
@@ -14,9 +14,9 @@ public class BufferedTest {
             //创建BufferedWriter对象
             BufferedWriter bufw = new BufferedWriter(fw);
             //循环遍历数组
-            for (int k = 0;k<conten.length;k++){
+            for (int k = 0;k<content.length;k++){
                 //将字符数组中的元素写入到磁盘文件中
-                bufw.write(conten[k]);
+                bufw.write(content[k]);
                 //将数组中的单个元素以单行的形式写入到文件
                 bufw.newLine();
             }

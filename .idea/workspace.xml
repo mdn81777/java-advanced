@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ceb99910-33cf-4c6d-b093-b47a813217e1" name="Default Changelist" comment="以字节为单位进行输入/输出">
-      <change afterPath="$PROJECT_DIR$/io-study/src/com/soft1841/io/BufferedTest.java" afterDir="false" />
+    <list default="true" id="ceb99910-33cf-4c6d-b093-b47a813217e1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/io-study/src/com/soft1841/io/RunnableTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io-study/src/com/soft1841/io/ThreadTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/io-study/src/com/soft1841/io/BufferedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/io-study/src/com/soft1841/io/BufferedTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,20 +31,21 @@
     <session id="2007900182">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="43" />
+          <entry key="project.closed" value="45" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="5" />
           <entry key="project.open.time.12" value="3" />
           <entry key="project.open.time.13" value="3" />
+          <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="2" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="3" />
           <entry key="project.open.time.6" value="2" />
-          <entry key="project.open.time.7" value="11" />
+          <entry key="project.open.time.7" value="12" />
           <entry key="project.open.time.8" value="6" />
           <entry key="project.open.time.9" value="5" />
-          <entry key="project.opened" value="45" />
+          <entry key="project.opened" value="47" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -50,7 +53,7 @@
           <entry key="MF" value="1" />
           <entry key="class" value="1" />
           <entry key="iml" value="3" />
-          <entry key="java" value="239" />
+          <entry key="java" value="243" />
           <entry key="jpg" value="2" />
           <entry key="txt" value="2" />
         </counts>
@@ -60,7 +63,7 @@
           <entry key="CLASS" value="1" />
           <entry key="IDEA_MODULE" value="3" />
           <entry key="Image" value="2" />
-          <entry key="JAVA" value="239" />
+          <entry key="JAVA" value="243" />
           <entry key="Manifest" value="1" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
@@ -68,14 +71,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="45" />
-          <entry key="java" value="18426" />
-          <entry key="txt" value="119" />
+          <entry key="java" value="18829" />
+          <entry key="txt" value="120" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="18426" />
-          <entry key="PLAIN_TEXT" value="164" />
+          <entry key="JAVA" value="18829" />
+          <entry key="PLAIN_TEXT" value="165" />
         </counts>
       </usages-collector>
     </session>
@@ -83,22 +86,40 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/swing-study/src/com/soft1841/swing/ImageViewFrame.java">
+        <entry file="file://$PROJECT_DIR$/io-study/src/com/soft1841/io/BufferedTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="27" column="25" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="25">
+              <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/io-study/src/com/soft1841/io/ThreadTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/io-study/src/com/soft1841/io/BufferedTest.java">
+        <entry file="file://$PROJECT_DIR$/io-study/src/com/soft1841/io/RunnableTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
+            <state relative-caret-position="125">
+              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/io-study/src/com/soft1841/io/BufferedStreamTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -120,8 +141,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/collection-study/src/com/soft1841/list/BookList.java" />
-        <option value="$PROJECT_DIR$/collection-study/src/com/soft1841/list/ArticleListTest.java" />
         <option value="$PROJECT_DIR$/collection-study/src/com/soft1841/map/Student.java" />
         <option value="$PROJECT_DIR$/collection-study/src/com/soft1841/map/HashMapTest.java" />
         <option value="$PROJECT_DIR$/collection-study/src/com/soft1841/map/StudentMapTest.java" />
@@ -171,6 +190,8 @@
         <option value="$PROJECT_DIR$/io-study/src/com/soft1841/io/BufferedStreamTest.java" />
         <option value="$PROJECT_DIR$/swing-study/src/com/soft1841/swing/ImageViewFrame.java" />
         <option value="$PROJECT_DIR$/io-study/src/com/soft1841/io/BufferedTest.java" />
+        <option value="$PROJECT_DIR$/io-study/src/com/soft1841/io/ThreadTest.java" />
+        <option value="$PROJECT_DIR$/io-study/src/com/soft1841/io/RunnableTest.java" />
       </list>
     </option>
   </component>
@@ -209,18 +230,12 @@
           <expand>
             <path>
               <item name="java-advanced" type="b2602c69:ProjectViewProjectNode" />
-              <item name="io-study" type="462c0819:PsiDirectoryNode" />
+              <item name="swing-study" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-advanced" type="b2602c69:ProjectViewProjectNode" />
-              <item name="io-study" type="462c0819:PsiDirectoryNode" />
+              <item name="swing-study" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-advanced" type="b2602c69:ProjectViewProjectNode" />
-              <item name="io-study" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -231,7 +246,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554303049563" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554675788333" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -278,7 +293,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BufferedTest">
+  <component name="RunManager" selected="Application.ThreadTest">
     <configuration name="BufferedStreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.soft1841.io.BufferedStreamTest" />
       <module name="io-study" />
@@ -305,19 +320,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImageViewFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.soft1841.swing.ImageViewFrame" />
-      <module name="swing-study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.soft1841.swing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ImageViewerFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.soft1841.swing.ImageViewerFrame" />
       <module name="swing-study" />
@@ -331,12 +333,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TxtReaderFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.soft1841.swing.TxtReaderFrame" />
-      <module name="swing-study" />
+    <configuration name="RunnableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.soft1841.io.RunnableTest" />
+      <module name="io-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.soft1841.swing.*" />
+          <option name="PATTERN" value="com.soft1841.io.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.soft1841.io.ThreadTest" />
+      <module name="io-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.soft1841.io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -345,19 +360,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ImageViewFrame" />
-      <item itemvalue="Application.TxtReaderFrame" />
       <item itemvalue="Application.ImageViewerFrame" />
       <item itemvalue="Application.BufferedStreamTest" />
       <item itemvalue="Application.BufferedTest" />
+      <item itemvalue="Application.ThreadTest" />
+      <item itemvalue="Application.RunnableTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadTest" />
+        <item itemvalue="Application.RunnableTest" />
         <item itemvalue="Application.BufferedTest" />
         <item itemvalue="Application.BufferedStreamTest" />
         <item itemvalue="Application.ImageViewerFrame" />
-        <item itemvalue="Application.ImageViewFrame" />
-        <item itemvalue="Application.TxtReaderFrame" />
       </list>
     </recent_temporary>
   </component>
@@ -415,7 +430,9 @@
       <workItem from="1554216519646" duration="510000" />
       <workItem from="1554217071472" duration="1934000" />
       <workItem from="1554294154873" duration="742000" />
-      <workItem from="1554301339432" duration="1674000" />
+      <workItem from="1554301339432" duration="4226000" />
+      <workItem from="1554353407067" duration="616000" />
+      <workItem from="1554674350551" duration="1428000" />
     </task>
     <task id="LOCAL-00001" summary="Integer类练习">
       <created>1552354988984</created>
@@ -508,15 +525,21 @@
       <option name="project" value="LOCAL" />
       <updated>1554218866257</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="以行为单位进行输入/输出">
+      <created>1554303109938</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1554303109938</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123837000" />
+    <option name="totallyTimeSpent" value="128433000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="1" />
@@ -524,11 +547,11 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.12935656" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.13203754" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32892805" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.13656388" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.17327459" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39941263" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -595,12 +618,10 @@
     <MESSAGE value="Swing-BoxLayout空布局管理器" />
     <MESSAGE value="JFileChooser的使用" />
     <MESSAGE value="以字节为单位进行输入/输出" />
-    <option name="LAST_COMMIT_MESSAGE" value="以字节为单位进行输入/输出" />
+    <MESSAGE value="以行为单位进行输入/输出" />
+    <option name="LAST_COMMIT_MESSAGE" value="以行为单位进行输入/输出" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Documents/WeChat Files/mdn81777/FileStorage/File/2019-03/FlowLayoutPositionTest.java" />
-    <entry file="file://$PROJECT_DIR$/collection-study/src/com/soft1841/set/EnumTest.java" />
-    <entry file="file://$PROJECT_DIR$/collection-study/src/com/soft1841/week1/EnumTest.java" />
     <entry file="file://$PROJECT_DIR$/collection-study/src/com/soft1841/week1/EnumSetTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -781,13 +802,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/io-study/src/com/soft1841/io/BufferedStreamTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1825">
-          <caret line="79" selection-start-line="79" selection-end-line="79" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/io-study/src/com/soft1841/io/FileDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -841,16 +855,44 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="27" column="25" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/WeChat Files/mdn81777/FileStorage/File/2019-04/ViewImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3344">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/io-study/src/com/soft1841/io/BufferedTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/io-study/src/com/soft1841/io/BufferedStreamTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/io-study/src/com/soft1841/io/BufferedTest.java">
+    <entry file="file://$PROJECT_DIR$/io-study/src/com/soft1841/io/ThreadTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
+        <state relative-caret-position="175">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/io-study/src/com/soft1841/io/RunnableTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
         </state>
       </provider>
     </entry>
