@@ -1,4 +1,4 @@
-package com.soft1841.io;
+package com.soft1841;
 
 import javax.swing.*;
 import java.text.SimpleDateFormat;

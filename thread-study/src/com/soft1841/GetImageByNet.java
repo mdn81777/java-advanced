@@ -1,4 +1,4 @@
-package com.soft1841.io;
+package com.soft1841;
 import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.URL;

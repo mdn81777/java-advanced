@@ -2,7 +2,6 @@ package com.soft1841.swing;
 
 import org.jb2011.lnf.beautyeye.BeautyEyeLNFHelper;
 import org.jb2011.lnf.beautyeye.ch3_button.BEButtonUI;
-import sun.awt.geom.AreaOp;
 
 import javax.swing.*;
 import java.awt.*;

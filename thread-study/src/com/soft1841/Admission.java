@@ -1,4 +1,4 @@
-package com.soft1841.io;
+package com.soft1841;
 
 public class Admission {
     public static void main(String[] args) {
