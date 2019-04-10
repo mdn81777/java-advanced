@@ -1,6 +1,5 @@
 package com.soft1841.swing;
 
-import com.sun.org.apache.xml.internal.security.Init;
 import org.jb2011.lnf.beautyeye.BeautyEyeLNFHelper;
 
 import javax.swing.*;

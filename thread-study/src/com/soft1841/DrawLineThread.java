@@ -1,14 +1,12 @@
 package com.soft1841;
 
-import org.omg.PortableServer.THREAD_POLICY_ID;
-
 import javax.swing.*;
 import java.awt.*;
 import java.util.Random;
 
 public class DrawLineThread implements Runnable {
-    int x = 200;
-    int y = 100;
+    int x = 250;
+    int y = 150;
     private JFrame frame;
     private Color[] colors = {Color.WHITE,Color.BLUE,Color.GRAY,Color.GREEN,Color.ORANGE,Color.YELLOW,
     Color.RED,Color.PINK,Color.LIGHT_GRAY};
@@ -29,10 +27,10 @@ public class DrawLineThread implements Runnable {
             }
             Graphics graphics = frame.getGraphics();
             graphics.setColor(colors[random.nextInt(colors.length)]);
-            graphics.drawLine(x,y,650,y);
-            y += 10;
-            if (y>=500){
-                y=100;
+            graphics.drawLine(x,y,600,300);
+            y += 13;
+            if (y>=550){
+                y=150;
             }
         }
     }

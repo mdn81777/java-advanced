@@ -1,10 +1,8 @@
 package com.soft1841;
 
 import javax.swing.*;
-import java.sql.Time;
 import java.util.Random;
-import java.util.Timer;
-import java.util.TimerTask;
+
 /**
  * @author 孟妮 2019-4-8
  */

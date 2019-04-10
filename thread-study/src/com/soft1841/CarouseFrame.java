@@ -1,6 +1,6 @@
 package com.soft1841;
+
 import javax.swing.*;
-import java.awt.*;
 
 public class CarouseFrame extends JFrame {
 
