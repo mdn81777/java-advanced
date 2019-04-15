@@ -19,7 +19,7 @@ public class TrafficLights extends JFrame {
         setTitle("模拟红绿灯变化场景");
         //窗体自动居中
         setLocationRelativeTo(null);
-        setSize(100,320);
+        setSize(530,400);
         setDefaultCloseOperation(DISPOSE_ON_CLOSE);
     }
     public void init(){
