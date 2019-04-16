@@ -1,4 +1,4 @@
-package com.soft1841.thread.io;
+package com.soft1841.io;
 //指定继承Thread类
 public class ThreadTest extends Thread {
     private int count = 10;

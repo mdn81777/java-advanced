@@ -1,4 +1,4 @@
-package com.soft1841.thread.io;
+package com.soft1841.io;
 
 import java.io.File;
 import java.io.IOException;

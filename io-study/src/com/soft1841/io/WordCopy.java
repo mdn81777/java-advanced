@@ -1,4 +1,4 @@
-package com.soft1841.thread.io;
+package com.soft1841.io;
 /**
  * @author 孟妮 2019-3-26
  */
