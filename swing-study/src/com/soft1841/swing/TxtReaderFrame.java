@@ -16,8 +16,8 @@ public class TxtReaderFrame extends JFrame implements ActionListener {
     private JButton confirmButton;
     private JPanel topPanel;
     private JTextArea contentArea;
-//    private JLabel imgLabel;
-//    private Icon icon;
+    private JLabel imgLabel;
+    private Icon icon;
 
     public TxtReaderFrame(){
         init();
@@ -33,8 +33,8 @@ public class TxtReaderFrame extends JFrame implements ActionListener {
         inputField.setPreferredSize(new Dimension(150,40));
         confirmButton = new JButton("确认");
         confirmButton.setPreferredSize(new Dimension(70,40));
-//        imgLabel = new JLabel();
-//        imgLabel.setPreferredSize(new Dimension(300,300));
+        imgLabel = new JLabel();
+        imgLabel.setPreferredSize(new Dimension(300,300));
         //给按钮注册监听
         confirmButton.addActionListener(this);
         topPanel = new JPanel();
@@ -42,9 +42,9 @@ public class TxtReaderFrame extends JFrame implements ActionListener {
         topPanel.add(confirmButton);
         confirmButton.setUI(new BEButtonUI().setNormalColor(BEButtonUI.NormalColor.green));
         add(topPanel,BorderLayout.NORTH);
-//        //图片
-//        add(imgLabel,BorderLayout.CENTER);
-        //中间的多行文本域
+        //图片
+        add(imgLabel,BorderLayout.CENTER);
+       //中间的多行文本域
         contentArea = new JTextArea();
         add(contentArea,BorderLayout.CENTER);
     }

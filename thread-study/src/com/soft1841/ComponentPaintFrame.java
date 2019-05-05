@@ -35,7 +35,7 @@ public class ComponentPaintFrame extends JFrame {
         JButton jButton = new JButton(){
             protected  void  paintComponent(Graphics g){
                 try {
-                    Image bg = ImageIO.read(new File("D:/1.png"));
+                    Image bg = ImageIO.read(new File("D:/1.jpg"));
                     g.drawImage(bg,0,0,getWidth(),getHeight(),null);
                     g.drawString("按钮",55,25);
                 } catch (IOException e) {

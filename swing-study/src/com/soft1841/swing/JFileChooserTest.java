@@ -64,8 +64,8 @@ public class JFileChooserTest extends JFrame implements ActionListener {
             File file = fileChooser.getSelectedFile();
             //将file的绝对路径显示在窗体中间
 //            pathLabel.setText(file.getAbsolutePath());
-            try {
-                InputStream inputStream = new FileInputStream(file);
+                try {
+                    InputStream inputStream = new FileInputStream(file);
                 Scanner scanner = new Scanner(inputStream);
             } catch (FileNotFoundException e1) {
                 e1.printStackTrace();

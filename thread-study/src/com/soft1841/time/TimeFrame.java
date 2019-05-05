@@ -8,7 +8,6 @@ import java.io.IOException;
 
 public class TimeFrame extends JFrame {
     private JLabel numberLabel;
-
     public TimeFrame() {
         init();
         setTitle("倒计时窗体");
