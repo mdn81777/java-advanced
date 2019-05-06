@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ceb99910-33cf-4c6d-b093-b47a813217e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/socket-study/socket-study.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/socket-study/src/test/Client1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/socket-study/src/test/Client2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/socket-study/src/test/Client3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/socket-study/src/test/Server1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/socket-study/src/test/Server2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/socket-study/src/test/Server3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/socket-study/src/test/Client4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/socket-study/src/test/Server4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/src/test/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/socket-study/src/test/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/src/test/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/socket-study/src/test/Server.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,14 +30,14 @@
     <session id="2007900182">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="97" />
+          <entry key="project.closed" value="98" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="6" />
           <entry key="project.open.time.10" value="5" />
           <entry key="project.open.time.11" value="4" />
           <entry key="project.open.time.12" value="9" />
           <entry key="project.open.time.13" value="9" />
-          <entry key="project.open.time.14" value="4" />
+          <entry key="project.open.time.14" value="5" />
           <entry key="project.open.time.15" value="2" />
           <entry key="project.open.time.16" value="4" />
           <entry key="project.open.time.17" value="1" />
@@ -55,7 +47,7 @@
           <entry key="project.open.time.7" value="19" />
           <entry key="project.open.time.8" value="13" />
           <entry key="project.open.time.9" value="9" />
-          <entry key="project.opened" value="99" />
+          <entry key="project.opened" value="100" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -63,7 +55,7 @@
           <entry key="MF" value="1" />
           <entry key="class" value="2" />
           <entry key="iml" value="5" />
-          <entry key="java" value="764" />
+          <entry key="java" value="771" />
           <entry key="jpg" value="40" />
           <entry key="png" value="19" />
           <entry key="txt" value="3" />
@@ -74,7 +66,7 @@
           <entry key="CLASS" value="2" />
           <entry key="IDEA_MODULE" value="5" />
           <entry key="Image" value="59" />
-          <entry key="JAVA" value="764" />
+          <entry key="JAVA" value="771" />
           <entry key="Manifest" value="1" />
           <entry key="PLAIN_TEXT" value="3" />
         </counts>
@@ -82,14 +74,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="76" />
-          <entry key="java" value="37823" />
-          <entry key="txt" value="208" />
+          <entry key="java" value="38367" />
+          <entry key="txt" value="224" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="37823" />
-          <entry key="PLAIN_TEXT" value="284" />
+          <entry key="JAVA" value="38367" />
+          <entry key="PLAIN_TEXT" value="300" />
         </counts>
       </usages-collector>
     </session>
@@ -97,40 +89,38 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/socket-study/src/test/Client3.java">
+        <entry file="file://$USER_HOME$/Documents/WeChat Files/mdn81777/FileStorage/File/2019-05/Server1(1).java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
-            </state>
+            <state relative-caret-position="-225" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/socket-study/src/test/Server2.java">
+        <entry file="file://$USER_HOME$/Documents/WeChat Files/mdn81777/FileStorage/File/2019-05/Client1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="16" column="40" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="40" />
+            <state relative-caret-position="-75" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/socket-study/src/test/Server4.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="875">
+              <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#626#627#0" expanded="true" />
+                <element signature="e#654#655#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/socket-study/src/test/Server3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/socket-study/src/test/Client2.java">
+        <entry file="file://$PROJECT_DIR$/socket-study/src/test/Client4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="42" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="42" />
+            <state relative-caret-position="450">
+              <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -155,8 +145,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/thread-study/src/com/soft1841/timer/LoginFrame(4).java" />
-        <option value="$PROJECT_DIR$/thread-study/src/com/soft1841/JoinDemo.java" />
         <option value="$PROJECT_DIR$/thread-study/src/com/soft1841/time/TimeTest1.java" />
         <option value="$PROJECT_DIR$/util/src/com/java/util/JSoupDemoi.java" />
         <option value="$PROJECT_DIR$/util/src/com/java/util/JSoupDemo1.java" />
@@ -206,6 +194,8 @@
         <option value="$USER_HOME$/Documents/WeChat Files/mdn81777/FileStorage/File/2019-05/Server2(1).java" />
         <option value="$PROJECT_DIR$/socket-study/src/test/Client3.java" />
         <option value="$PROJECT_DIR$/socket-study/src/test/Server3.java" />
+        <option value="$PROJECT_DIR$/socket-study/src/test/Server4.java" />
+        <option value="$PROJECT_DIR$/socket-study/src/test/Client4.java" />
       </list>
     </option>
   </component>
@@ -270,7 +260,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557154662827" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557179307932" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -295,6 +285,13 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JavaStudy\java-advanced\util\jar" />
+      <recent name="D:\JavaStudy\java-advanced\util\src\com\java\util" />
+      <recent name="D:\JavaStudy\java-advanced\util" />
+      <recent name="D:\JavaStudy\java-advanced\swing-study\jar" />
+      <recent name="D:\JavaStudy\java-advanced\thread-study" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.soft1841.jsoup" />
       <recent name="com.java.util" />
@@ -305,13 +302,6 @@
       <recent name="D:\JavaStudy\java-advanced\util\src" />
       <recent name="D:\JavaStudy\java-advanced\util\src\com\java\util" />
       <recent name="D:\JavaStudy\java-advanced\util\src\img" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\JavaStudy\java-advanced\util\jar" />
-      <recent name="D:\JavaStudy\java-advanced\util\src\com\java\util" />
-      <recent name="D:\JavaStudy\java-advanced\util" />
-      <recent name="D:\JavaStudy\java-advanced\swing-study\jar" />
-      <recent name="D:\JavaStudy\java-advanced\thread-study" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -326,20 +316,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client3">
-    <configuration name="Client1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.Client1" />
-      <module name="socket-study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Client4">
     <configuration name="Client2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.Client2" />
       <module name="socket-study" />
@@ -366,12 +343,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainFrame" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.util.MainFrame" />
-      <module name="util" />
+    <configuration name="Client4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Client4" />
+      <module name="socket-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.soft1841.jsoup.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -379,12 +356,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Server1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.Server1" />
-      <module name="socket-study" />
+    <configuration name="MainFrame" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.util.MainFrame" />
+      <module name="util" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.*" />
+          <option name="PATTERN" value="com.soft1841.jsoup.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -405,21 +382,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Server4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Server4" />
+      <module name="socket-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.MainFrame" />
-      <item itemvalue="Application.Server1" />
-      <item itemvalue="Application.Client1" />
       <item itemvalue="Application.Client2" />
       <item itemvalue="Application.Server3" />
       <item itemvalue="Application.Client3" />
+      <item itemvalue="Application.Server4" />
+      <item itemvalue="Application.Client4" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client4" />
+        <item itemvalue="Application.Server4" />
         <item itemvalue="Application.Client3" />
         <item itemvalue="Application.Server3" />
         <item itemvalue="Application.Client2" />
-        <item itemvalue="Application.Client1" />
-        <item itemvalue="Application.Server1" />
       </list>
     </recent_temporary>
   </component>
@@ -531,7 +521,8 @@
       <workItem from="1556376068833" duration="1510000" />
       <workItem from="1557094712612" duration="2404000" />
       <workItem from="1557127245779" duration="5584000" />
-      <workItem from="1557152720586" duration="1762000" />
+      <workItem from="1557152720586" duration="2067000" />
+      <workItem from="1557178409949" duration="811000" />
     </task>
     <task id="LOCAL-00001" summary="Integer类练习">
       <created>1552354988984</created>
@@ -708,11 +699,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557096498984</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="java网络编程（客户端向服务端多次发送）">
+      <created>1557154713749</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1557154713749</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="300662000" />
+    <option name="totallyTimeSpent" value="301778000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -724,7 +722,7 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.13605899" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.13739946" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32892805" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.34067547" />
@@ -776,7 +774,8 @@
     <MESSAGE value="join的用法" />
     <MESSAGE value="Jsoup" />
     <MESSAGE value="java网络编程" />
-    <option name="LAST_COMMIT_MESSAGE" value="java网络编程" />
+    <MESSAGE value="java网络编程（客户端向服务端多次发送）" />
+    <option name="LAST_COMMIT_MESSAGE" value="java网络编程（客户端向服务端多次发送）" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -795,37 +794,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/thread-study/src/img/12.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/collection-study/src/com/soft1841/thread/list/BookOneList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/collection-study/src/com/soft1841/thread/set/SetTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-278">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/collection-study/src/com/soft1841/thread/set/TreeSetTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/collection-study/src/com/soft1841/thread/map/HashMapTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/collection-study/src/com/soft1841/thread/map/StudentMapTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
@@ -996,9 +964,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1006,9 +971,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1026,13 +988,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/socket-study/src/test/Server2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/socket-study/src/test/Client2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="15" column="42" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/socket-study/src/test/Server3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -1043,20 +1016,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/socket-study/src/test/Server2.java">
+    <entry file="file://$PROJECT_DIR$/thread-study/src/com/soft1841/NumThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="40" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="40" />
+        <state relative-caret-position="150">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/WeChat Files/mdn81777/FileStorage/File/2019-05/Server1(1).java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-225" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/WeChat Files/mdn81777/FileStorage/File/2019-05/Client1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-75" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/socket-study/src/test/Client4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/socket-study/src/test/Server3.java">
+    <entry file="file://$PROJECT_DIR$/socket-study/src/test/Server4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        <state relative-caret-position="875">
+          <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
