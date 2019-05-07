@@ -1,13 +1,13 @@
 package test;
-
-import javax.swing.text.html.HTMLDocument;
+/**
+ * 客户端向服务器端发送文本数据
+ */
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.net.ServerSocket;
 import java.net.Socket;
-
 public class Server4 {
     public static void main(String[] args) throws IOException {
         ServerSocket serverSocket = new ServerSocket(10086);

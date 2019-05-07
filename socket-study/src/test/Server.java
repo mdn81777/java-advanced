@@ -16,6 +16,5 @@ public class Server {
             System.out.println("客户端："+ socket.getInetAddress()+"上线了");
             socket.close();
         }
-
     }
 }

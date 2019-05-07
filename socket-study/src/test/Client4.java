@@ -4,9 +4,11 @@ import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.net.Socket;
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
+/**
+ * 客户端向服务器端发送文本数据
+ */
 public class Client4 {
     public static void main(String[] args) throws IOException {
         Socket client = new Socket("localhost",10086);
