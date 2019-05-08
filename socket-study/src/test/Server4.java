@@ -1,6 +1,6 @@
 package test;
 /**
- * 客户端向服务器端发送文本数据
+ * 客户端向服务器端发送文本数据（控制台）
  */
 import java.io.BufferedReader;
 import java.io.IOException;

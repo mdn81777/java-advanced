@@ -5,7 +5,7 @@ import java.io.PrintStream;
 import java.net.ServerSocket;
 import java.net.Socket;
 /**
- * 服务器像客户端发送信息---控制台
+ * 服务器向客户端发送信息---控制台
  * client端，通过BufferedReader读取文本内容
  */
 public class Server7 {

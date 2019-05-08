@@ -1,13 +1,12 @@
 package test;
 
 import java.io.BufferedWriter;
-import java.io.IOException;
-import java.io.OutputStreamWriter;
-import java.net.Socket;
-import java.util.Scanner;
-
+        import java.io.IOException;
+        import java.io.OutputStreamWriter;
+        import java.net.Socket;
+        import java.util.Scanner;
 /**
- * 客户端向服务器端发送文本数据
+ * 客户端向服务器端发送文本数据(控制台)
  */
 public class Client4 {
     public static void main(String[] args) throws IOException {
@@ -23,6 +22,4 @@ public class Client4 {
         buf.close();
 
     }
-
-
 }

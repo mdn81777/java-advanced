@@ -1,9 +1,10 @@
 package test;
-
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
-
+/**
+ * 最简单的起步程序（一个Server和一个Client）
+ */
 public class Server {
     public static void main(String[] args) throws IOException {
         //创建服务器对象，映射端口10086

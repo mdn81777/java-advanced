@@ -1,12 +1,11 @@
 package test;
-
 import java.io.IOException;
 import java.io.OutputStream;
 import java.net.Socket;
 import java.util.Scanner;
-
 /**
  * 客户端向服务器发送文本数据
+ * 改进的起步程序（一个Sever和多个Client）
  */
 public class Client2 {
     public static void main(String[] args)throws IOException {

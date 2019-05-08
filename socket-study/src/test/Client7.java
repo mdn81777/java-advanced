@@ -3,7 +3,6 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.Socket;
-
 /**
  * 服务器像客户端发送信息---控制台
  * client端，通过BufferedReader读取文本内容

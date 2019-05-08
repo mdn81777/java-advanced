@@ -1,9 +1,12 @@
 package test;
-
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
+
+/**
+ * 改进的起步程序（一个Sever和多个Client）
+ */
 public class Server2 {
     public static void main(String[] args) throws IOException {
         ServerSocket ss = new ServerSocket(8080);
