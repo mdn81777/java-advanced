@@ -41,7 +41,7 @@ public class ClientFrame extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 try {
-                    client = new Socket("192.168.43.189", 10010);
+                    client = new Socket("192.168.43.11", 10010);
                     System.out.println("成功连接上服务器");
                     JOptionPane.showMessageDialog(null, "成功连接上服务器！");
                 } catch (IOException ex) {

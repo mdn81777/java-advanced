@@ -3,15 +3,13 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
+import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
 /**
  * 客户端向服务器端发送信息——GUI版
  */
+
 public class ServerFrame extends JFrame {
     private JTextArea contentTextArea;
     private JButton runButton;
@@ -23,7 +21,7 @@ public class ServerFrame extends JFrame {
         setSize(new Dimension(800, 600));
         setLocationRelativeTo(null);
         setVisible(true);
-        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 
     private void init() {
@@ -36,23 +34,12 @@ public class ServerFrame extends JFrame {
         contentTextArea.setFont(font);
         add(topPanel, BorderLayout.NORTH);
         add(contentTextArea, BorderLayout.CENTER);
-        //启动监听
+        //启动监听，打开中间桥梁线程
         runButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                try {
-                    ServerSocket serverSocket = new ServerSocket(10010);
-                    System.out.println("服务器启动！");
-                    JOptionPane.showMessageDialog(null, "服务器启动！");
-                    while (true) {
-                        Socket socket = serverSocket.accept();
-                        ServerThread4 server = new ServerThread4();
-                        server.setSocket(socket);
-                        new Thread(server).start();
-                    }
-                } catch (IOException ex) {
-                    ex.printStackTrace();
-                }
+                linkThread linkThread = new linkThread();
+                new Thread(linkThread).start();
             }
         });
     }
@@ -61,6 +48,28 @@ public class ServerFrame extends JFrame {
         new ServerFrame();
     }
 
+    //中间桥梁线程，启功server线程
+    class linkThread implements Runnable{
+
+        @Override
+        public void run() {
+            try {
+                ServerSocket serverSocket = new ServerSocket(10010);
+                System.out.println("服务器启动！");
+                JOptionPane.showMessageDialog(null, "服务器启动！");
+                while (true) {
+                    Socket socket = serverSocket.accept();
+                    ServerThread4 server = new ServerThread4();
+                    server.setSocket(socket);
+                    new Thread(server).start();
+                }
+            } catch (IOException ex) {
+                ex.printStackTrace();
+            }
+        }
+    }
+
+    //Server线程
     class ServerThread4 implements Runnable {
         private Socket socket;
 
@@ -70,14 +79,17 @@ public class ServerFrame extends JFrame {
 
         @Override
         public void run() {
-
             System.out.println("客户端" + socket.getInetAddress() + "连接成功！");
             InputStream inputStream = null;
+            String str = null;
             try {
                 inputStream = socket.getInputStream();
                 BufferedReader br = new BufferedReader(new InputStreamReader(inputStream));
-                System.out.println(br.readLine());
-                contentTextArea.setText(br.readLine());
+                while (br.read()!= -1){
+                    str = br.readLine();
+                }
+                System.out.println(str);
+                contentTextArea.append(str);
                 br.close();
                 socket.close();
             } catch (IOException e) {
