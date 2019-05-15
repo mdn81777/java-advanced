@@ -1,21 +1,19 @@
 package com.soft1841.jdbc;
 import java.sql.*;
-
 public class JDBCDemo1 {
     //JDBC驱动名及数据库连接URL
     static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
-    static final String DB_URL = "jdbc:mysql://localhost:3306/test";
+    static final String DB_URL = "jdbc:mysql://localhost:3306/db_jdbc";
     //数据库的用户名与密码
     static final String USER = "root";
     static final String PASS = "root";
-
     public static void main(String[] args)throws SQLException ,ClassNotFoundException{
         //加载JDBC成功
         Class.forName(JDBC_DRIVER);
         //建立连接
-        System.out.println("连接数据库......");
+        System.out.println("连接数据库.....");
         Connection conn = DriverManager.getConnection(DB_URL,USER,PASS);
-        System.out.println("实例化Statement......");
+        System.out.println("实例化Statement.....");
         //实例化Statement对象
         Statement stmt = conn.createStatement();
         //向数据库发送SQL语句
