@@ -7,10 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ceb99910-33cf-4c6d-b093-b47a813217e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/util/src/test/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/src/test/SingletonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/src/test/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/src/test/FactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/src/test/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/src/test/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/src/test/ShapeFacctory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdbc-study/src/main/java/com/soft1841/jdbc/JDBCDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc-study/src/main/java/com/soft1841/jdbc/JDBCDemo3.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/jdbc-study/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,8 +39,8 @@
     <session id="2007900182">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="129" />
-          <entry key="project.open.time.0" value="14" />
+          <entry key="project.closed" value="131" />
+          <entry key="project.open.time.0" value="15" />
           <entry key="project.open.time.1" value="7" />
           <entry key="project.open.time.10" value="6" />
           <entry key="project.open.time.11" value="5" />
@@ -54,9 +56,9 @@
           <entry key="project.open.time.5" value="4" />
           <entry key="project.open.time.6" value="7" />
           <entry key="project.open.time.7" value="20" />
-          <entry key="project.open.time.8" value="17" />
+          <entry key="project.open.time.8" value="18" />
           <entry key="project.open.time.9" value="12" />
-          <entry key="project.opened" value="132" />
+          <entry key="project.opened" value="134" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -65,7 +67,7 @@
           <entry key="class" value="2" />
           <entry key="form" value="12" />
           <entry key="iml" value="6" />
-          <entry key="java" value="843" />
+          <entry key="java" value="856" />
           <entry key="jpg" value="40" />
           <entry key="png" value="20" />
           <entry key="txt" value="3" />
@@ -78,7 +80,7 @@
           <entry key="GUI_DESIGNER_FORM" value="12" />
           <entry key="IDEA_MODULE" value="6" />
           <entry key="Image" value="60" />
-          <entry key="JAVA" value="843" />
+          <entry key="JAVA" value="856" />
           <entry key="Manifest" value="1" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="XML" value="3" />
@@ -87,51 +89,99 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="76" />
-          <entry key="java" value="44301" />
-          <entry key="txt" value="254" />
+          <entry key="java" value="44306" />
+          <entry key="txt" value="269" />
           <entry key="xml" value="121" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="44301" />
-          <entry key="PLAIN_TEXT" value="330" />
+          <entry key="JAVA" value="44306" />
+          <entry key="PLAIN_TEXT" value="345" />
           <entry key="XML" value="121" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/swing-study/src/com/soft1841/swing/LoginFrame.java">
+        <entry file="file://$USER_HOME$/Documents/WeChat Files/mdn81777/FileStorage/File/2019-05/Circle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="81" selection-start-line="81" selection-end-line="81" />
+            <state relative-caret-position="25">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/util/src/test/Singleton.java">
+        <entry file="file://$USER_HOME$/Documents/WeChat Files/mdn81777/FileStorage/File/2019-05/FactoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
-              <folding>
-                <element signature="e#270#271#0" expanded="true" />
-                <element signature="e#300#301#0" expanded="true" />
-                <element signature="e#348#349#0" expanded="true" />
-                <element signature="e#384#385#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="25">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/util/src/test/Circle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/util/src/test/SingletonTest.java">
+        <entry file="file://$PROJECT_DIR$/util/src/test/FactoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+            <state relative-caret-position="50">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Documents/WeChat Files/mdn81777/FileStorage/File/2019-05/Rectamgle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Documents/WeChat Files/mdn81777/FileStorage/File/2019-05/Shape.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" selection-start-line="2" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Documents/WeChat Files/mdn81777/FileStorage/File/2019-05/ShapeFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/util/src/test/Rectangle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/util/src/test/ShapeFacctory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -142,6 +192,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="yet_unknown" />
+        <option value="Interface" />
         <option value="Arquillian JUnit Test Class" />
         <option value="Class" />
       </list>
@@ -153,13 +204,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/thread-study/src/com/soft1841/jsoup/Time1.java" />
-        <option value="$PROJECT_DIR$/thread-study/src/com/soft1841/jsoup/TimeThread.java" />
-        <option value="$PROJECT_DIR$/thread-study/src/com/soft1841/jsoup/Crawl.java" />
-        <option value="$PROJECT_DIR$/thread-study/src/com/soft1841/jsoup/AllThread.java" />
-        <option value="$PROJECT_DIR$/util/src/com/java/util/AllFrame.java" />
-        <option value="$PROJECT_DIR$/util/src/com/java/util/MainJFrame.java" />
-        <option value="$PROJECT_DIR$/thread-study/src/com/soft1841/jsoup/JSoupDemo2.java" />
         <option value="$PROJECT_DIR$/thread-study/src/com/soft1841/jsoup/CrawlThread.java" />
         <option value="$PROJECT_DIR$/thread-study/src/com/soft1841/jsoup/MainFrame.java" />
         <option value="$PROJECT_DIR$/thread-study/src/com/soft1841/jsoup/AllFrame.java" />
@@ -204,6 +248,13 @@
         <option value="$PROJECT_DIR$/jdbc-study/src/main/java/com/soft1841/jdbc/JDBCDemo3.java" />
         <option value="$PROJECT_DIR$/util/src/test/Singleton.java" />
         <option value="$PROJECT_DIR$/util/src/test/SingletonTest.java" />
+        <option value="$PROJECT_DIR$/util/src/test/Shape.java" />
+        <option value="$PROJECT_DIR$/util/src/test/Circle.java" />
+        <option value="$PROJECT_DIR$/util/src/test/Rectangle.java" />
+        <option value="$PROJECT_DIR$/util/src/test/CircleTest.java" />
+        <option value="$USER_HOME$/Documents/WeChat Files/mdn81777/FileStorage/File/2019-05/FactoryTest.java" />
+        <option value="$PROJECT_DIR$/util/src/test/FactoryTest.java" />
+        <option value="$PROJECT_DIR$/util/src/test/ShapeFacctory.java" />
       </list>
     </option>
   </component>
@@ -224,14 +275,19 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="jdbc-study" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="950" />
-    <option name="width" value="980" />
-    <option name="height" value="1040" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="951" />
+    <option name="width" value="978" />
+    <option name="height" value="1039" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -241,7 +297,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -254,11 +309,25 @@
               <item name="util" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="java-advanced" type="b2602c69:ProjectViewProjectNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-advanced" type="b2602c69:ProjectViewProjectNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="ShapeFacctory.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -266,7 +335,7 @@
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="316" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558303172496" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558386966528" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -284,19 +353,13 @@
       <recent name="com.soft1841.io" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="test" />
       <recent name="com.soft1841.timer" />
       <recent name="com.soft1841.week1" />
       <recent name="com.soft1841.list" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\JavaStudy\java-advanced\gui-form\src" />
-      <recent name="D:\JavaStudy\java-advanced\util\jar" />
-      <recent name="D:\JavaStudy\java-advanced\util\src\com\java\util" />
-      <recent name="D:\JavaStudy\java-advanced\util" />
-      <recent name="D:\JavaStudy\java-advanced\swing-study\jar" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="test" />
@@ -309,6 +372,13 @@
       <recent name="D:\JavaStudy\java-advanced\util" />
       <recent name="D:\JavaStudy\java-advanced\util\src" />
       <recent name="D:\JavaStudy\java-advanced\util\src\com\java\util" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JavaStudy\java-advanced\gui-form\src" />
+      <recent name="D:\JavaStudy\java-advanced\util\jar" />
+      <recent name="D:\JavaStudy\java-advanced\util\src\com\java\util" />
+      <recent name="D:\JavaStudy\java-advanced\util" />
+      <recent name="D:\JavaStudy\java-advanced\swing-study\jar" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -323,26 +393,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SingletonTest">
-    <configuration name="JDBCDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.soft1841.jdbc.JDBCDemo1" />
-      <module name="jdbc-study" />
+  <component name="RunManager" selected="Application.FactoryTest">
+    <configuration name="FactoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.FactoryTest" />
+      <module name="util" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.soft1841.jdbc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JDBCDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.soft1841.jdbc.JDBCDemo2" />
-      <module name="jdbc-study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.soft1841.jdbc.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -402,21 +459,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CircleTest.draw" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="util" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.CircleTest" />
+      <option name="METHOD_NAME" value="draw" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.MainFrame" />
-      <item itemvalue="Application.JDBCDemo1" />
-      <item itemvalue="Application.JDBCDemo2" />
       <item itemvalue="Application.JDBCDemo3" />
       <item itemvalue="Application.JDBCDemo4" />
       <item itemvalue="Application.SingletonTest" />
+      <item itemvalue="Application.FactoryTest" />
+      <item itemvalue="JUnit.CircleTest.draw" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FactoryTest" />
+        <item itemvalue="JUnit.CircleTest.draw" />
         <item itemvalue="Application.SingletonTest" />
         <item itemvalue="Application.JDBCDemo4" />
         <item itemvalue="Application.JDBCDemo3" />
-        <item itemvalue="Application.JDBCDemo2" />
-        <item itemvalue="Application.JDBCDemo1" />
       </list>
     </recent_temporary>
   </component>
@@ -561,7 +634,9 @@
       <workItem from="1558027409253" duration="418000" />
       <workItem from="1558053645971" duration="24000" />
       <workItem from="1558071442956" duration="80000" />
-      <workItem from="1558302824697" duration="317000" />
+      <workItem from="1558302824697" duration="992000" />
+      <workItem from="1558345103105" duration="132000" />
+      <workItem from="1558386224152" duration="566000" />
     </task>
     <task id="LOCAL-00001" summary="Integer类练习">
       <created>1552354988984</created>
@@ -808,11 +883,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558017144733</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Java设计模式">
+      <created>1558303198146</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1558303198146</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="358795000" />
+    <option name="totallyTimeSpent" value="360168000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -824,7 +906,7 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.1621984" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.1689008" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32892805" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.23641704" />
@@ -836,7 +918,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.23201175" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" weight="0.24816446" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.21732746" />
+      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.21732746" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -855,7 +937,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Calendar类" />
     <MESSAGE value="边界布局管理器" />
     <MESSAGE value="swing" />
     <MESSAGE value="Swing-BoxLayout空布局管理器" />
@@ -880,7 +961,8 @@
     <MESSAGE value="网络编程（六）" />
     <MESSAGE value="JDBC起步练习" />
     <MESSAGE value="JDBC练习" />
-    <option name="LAST_COMMIT_MESSAGE" value="JDBC练习" />
+    <MESSAGE value="Java设计模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java设计模式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -899,79 +981,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Documents/WeChat Files/mdn81777/FileStorage/File/2019-05/Server2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/WeChat Files/mdn81777/FileStorage/File/2019-05/Server2(1).java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="25" lean-forward="true" selection-start-line="1" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/WeChat Files/mdn81777/FileStorage/File/2019-05/Client2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread-study/src/com/soft1841/NumThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/WeChat Files/mdn81777/FileStorage/File/2019-05/Server1(1).java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-225" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/WeChat Files/mdn81777/FileStorage/File/2019-05/Client1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-75" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/socket-study/src/test/Client1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/socket-study/src/test/Client3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/socket-study/src/test/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" selection-start-line="4" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/socket-study/src/test/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/socket-study/src/test/Server4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="581">
-          <caret line="41" lean-forward="true" selection-start-line="4" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/socket-study/src/test/Client4.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
@@ -1206,9 +1215,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/util/src/test/SingletonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/util/src/test/Singleton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
+        <state relative-caret-position="300">
           <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
           <folding>
             <element signature="e#270#271#0" expanded="true" />
@@ -1219,10 +1235,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/util/src/test/SingletonTest.java">
+    <entry file="file://$USER_HOME$/Documents/WeChat Files/mdn81777/FileStorage/File/2019-05/Shape.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/src/test/Shape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/WeChat Files/mdn81777/FileStorage/File/2019-05/Circle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/WeChat Files/mdn81777/FileStorage/File/2019-05/Rectamgle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/src/test/Rectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/src/test/CircleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/src/test/Circle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/WeChat Files/mdn81777/FileStorage/File/2019-05/FactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/WeChat Files/mdn81777/FileStorage/File/2019-05/ShapeFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/src/test/ShapeFacctory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/src/test/FactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
