@@ -1,4 +1,6 @@
-package test;
+package entity;
+
+import DAO.Shape;
 
 public class Circle implements Shape {
     @Override

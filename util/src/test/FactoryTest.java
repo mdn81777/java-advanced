@@ -1,5 +1,7 @@
 package test;
 
+import DAO.Shape;
+
 public class FactoryTest {
     public static void main(String[] args) {
         Shape circle = ShapeFactory.getCircleInstance();

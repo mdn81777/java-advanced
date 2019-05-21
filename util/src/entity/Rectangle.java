@@ -1,5 +1,7 @@
-package test;
+package entity;
 
+
+import DAO.Shape;
 
 public class Rectangle implements Shape {
     @Override

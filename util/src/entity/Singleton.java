@@ -1,4 +1,4 @@
-package test;
+package entity;
 
 /**
  * 单例模式
