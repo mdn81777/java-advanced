@@ -1,0 +1,9 @@
+import DAO.Subject;
+import entity.Proxy;
+
+public class ProxyPattern {
+    public static void main(String[] args) {
+        Subject proxy = new Proxy();
+        proxy.buyMac();
+    }
+}

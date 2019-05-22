@@ -7,11 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ceb99910-33cf-4c6d-b093-b47a813217e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/util/src/test/AdapterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/src/test/Sports.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/src/test/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/src/test/Study.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/src/DAO/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/src/ProxyPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/src/entity/Proxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/src/entity/RealSubject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/src/test/AdapterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/util/src/test/AdapterTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/jdbc-study/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,8 +39,8 @@
     <session id="2007900182">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="134" />
-          <entry key="project.open.time.0" value="16" />
+          <entry key="project.closed" value="137" />
+          <entry key="project.open.time.0" value="17" />
           <entry key="project.open.time.1" value="8" />
           <entry key="project.open.time.10" value="6" />
           <entry key="project.open.time.11" value="5" />
@@ -52,12 +53,12 @@
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.5" value="4" />
+          <entry key="project.open.time.5" value="5" />
           <entry key="project.open.time.6" value="7" />
-          <entry key="project.open.time.7" value="20" />
+          <entry key="project.open.time.7" value="21" />
           <entry key="project.open.time.8" value="18" />
           <entry key="project.open.time.9" value="13" />
-          <entry key="project.opened" value="137" />
+          <entry key="project.opened" value="140" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -66,7 +67,7 @@
           <entry key="class" value="2" />
           <entry key="form" value="12" />
           <entry key="iml" value="6" />
-          <entry key="java" value="878" />
+          <entry key="java" value="892" />
           <entry key="jpg" value="40" />
           <entry key="png" value="20" />
           <entry key="txt" value="3" />
@@ -79,7 +80,7 @@
           <entry key="GUI_DESIGNER_FORM" value="12" />
           <entry key="IDEA_MODULE" value="6" />
           <entry key="Image" value="60" />
-          <entry key="JAVA" value="878" />
+          <entry key="JAVA" value="892" />
           <entry key="Manifest" value="1" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="XML" value="3" />
@@ -88,64 +89,65 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="76" />
-          <entry key="java" value="44544" />
-          <entry key="txt" value="272" />
+          <entry key="java" value="44747" />
+          <entry key="txt" value="285" />
           <entry key="xml" value="121" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="44544" />
-          <entry key="PLAIN_TEXT" value="348" />
+          <entry key="JAVA" value="44747" />
+          <entry key="PLAIN_TEXT" value="361" />
           <entry key="XML" value="121" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/util/src/test/Study.java">
+        <entry file="file://$PROJECT_DIR$/util/src/DAO/Subject.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/util/src/test/Sports.java">
+        <entry file="file://$PROJECT_DIR$/util/src/entity/RealSubject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="23" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/util/src/test/AdapterTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+            <state relative-caret-position="100">
+              <caret line="4" column="43" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="43" />
               <folding>
-                <element signature="e#155#305#0" expanded="true" />
-                <element signature="e#304#305#0" expanded="true" />
-                <element signature="e#437#438#0" expanded="true" />
-                <element signature="e#482#483#0" expanded="true" />
-                <element signature="e#552#553#0" expanded="true" />
-                <element signature="e#604#605#0" expanded="true" />
-                <element signature="e#676#677#0" expanded="true" />
-                <element signature="e#728#729#0" expanded="true" />
+                <element signature="e#123#124#0" expanded="true" />
+                <element signature="e#159#160#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/util/src/test/Student.java">
+        <entry file="file://$PROJECT_DIR$/util/src/entity/Proxy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+            <state relative-caret-position="375">
+              <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+              <folding>
+                <element signature="e#335#336#0" expanded="true" />
+                <element signature="e#371#372#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/util/src/ProxyPattern.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -156,8 +158,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="yet_unknown" />
-        <option value="Interface" />
         <option value="Arquillian JUnit Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -168,12 +170,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/Documents/WeChat Files/mdn81777/FileStorage/File/2019-05/Client2.java" />
-        <option value="$USER_HOME$/Documents/WeChat Files/mdn81777/FileStorage/File/2019-05/Server2(1).java" />
-        <option value="$PROJECT_DIR$/socket-study/src/test/Client3.java" />
-        <option value="$PROJECT_DIR$/socket-study/src/test/Server3.java" />
-        <option value="$PROJECT_DIR$/socket-study/src/test/Server5.java" />
-        <option value="$PROJECT_DIR$/socket-study/src/test/Server6.java" />
         <option value="$PROJECT_DIR$/socket-study/src/test/Client6.java" />
         <option value="$PROJECT_DIR$/socket-study/src/test/Client7.java" />
         <option value="$PROJECT_DIR$/socket-study/src/test/Server7.java" />
@@ -218,7 +214,13 @@
         <option value="$PROJECT_DIR$/util/src/test/Sports.java" />
         <option value="$PROJECT_DIR$/util/src/test/Student.java" />
         <option value="$PROJECT_DIR$/util/src/test/SportsTest.java" />
+        <option value="$PROJECT_DIR$/util/src/entity/Circle.java" />
+        <option value="$PROJECT_DIR$/util/src/DAO/Student.java" />
         <option value="$PROJECT_DIR$/util/src/test/AdapterTest.java" />
+        <option value="$PROJECT_DIR$/util/src/DAO/Subject.java" />
+        <option value="$PROJECT_DIR$/util/src/entity/RealSubject.java" />
+        <option value="$PROJECT_DIR$/util/src/entity/Proxy.java" />
+        <option value="$PROJECT_DIR$/util/src/ProxyPattern.java" />
       </list>
     </option>
   </component>
@@ -261,8 +263,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -279,12 +279,20 @@
               <item name="java-advanced" type="b2602c69:ProjectViewProjectNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="DAO" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-advanced" type="b2602c69:ProjectViewProjectNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -292,7 +300,7 @@
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="316" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558453603010" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558542684583" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -350,7 +358,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AdapterTest">
+  <component name="RunManager" selected="Application.ProxyPattern">
     <configuration name="AdapterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.AdapterTest" />
       <module name="util" />
@@ -370,19 +378,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.soft1841.swing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FactoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.FactoryTest" />
-      <module name="util" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="entity.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -429,21 +424,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProxyPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProxyPattern" />
+      <module name="util" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.MainFrame" />
-      <item itemvalue="Application.FactoryTest" />
       <item itemvalue="Application.ImageViewerFrame" />
       <item itemvalue="Application.BoxLayoutTest" />
       <item itemvalue="Application.GridLayoutTest" />
       <item itemvalue="Application.AdapterTest" />
+      <item itemvalue="Application.ProxyPattern" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProxyPattern" />
         <item itemvalue="Application.AdapterTest" />
         <item itemvalue="Application.GridLayoutTest" />
         <item itemvalue="Application.BoxLayoutTest" />
         <item itemvalue="Application.ImageViewerFrame" />
-        <item itemvalue="Application.FactoryTest" />
       </list>
     </recent_temporary>
   </component>
@@ -593,7 +595,10 @@
       <workItem from="1558386224152" duration="798000" />
       <workItem from="1558395659401" duration="180000" />
       <workItem from="1558408261844" duration="158000" />
-      <workItem from="1558452653540" duration="793000" />
+      <workItem from="1558452653540" duration="1096000" />
+      <workItem from="1558454898466" duration="153000" />
+      <workItem from="1558500617988" duration="12000" />
+      <workItem from="1558541925584" duration="708000" />
     </task>
     <task id="LOCAL-00001" summary="Integer类练习">
       <created>1552354988984</created>
@@ -854,11 +859,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558386992791</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="适配器模式">
+      <created>1558453631123</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1558453631123</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="361531000" />
+    <option name="totallyTimeSpent" value="362707000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -870,10 +882,10 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.17292225" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.17895442" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32892805" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.23641704" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.2599119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39941263" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -903,7 +915,7 @@
       <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.17292225" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32892805" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.23641704" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.2599119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39941263" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -931,7 +943,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="swing" />
     <MESSAGE value="Swing-BoxLayout空布局管理器" />
     <MESSAGE value="JFileChooser的使用" />
     <MESSAGE value="以字节为单位进行输入/输出" />
@@ -956,7 +967,8 @@
     <MESSAGE value="JDBC练习" />
     <MESSAGE value="Java设计模式" />
     <MESSAGE value="Java设计模式二" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java设计模式二" />
+    <MESSAGE value="适配器模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="适配器模式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -975,41 +987,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/socket-study/src/test/Server7.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-125">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/socket-study/src/udp/UDPServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="39" lean-forward="true" selection-start-line="1" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/socket-study/src/udp/UDPClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="38" lean-forward="true" selection-start-line="1" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/WeChat Files/mdn81777/FileStorage/File/2019-05/ServerFrame(2).java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="581">
-          <caret line="103" lean-forward="true" selection-start-line="1" selection-end-line="103" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/socket-study/src/test/ClientFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/socket-study/src/test/ServerFrame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="413">
@@ -1125,13 +1102,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/util/src/test/Singleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Documents/WeChat Files/mdn81777/FileStorage/File/2019-05/Shape.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
@@ -1169,24 +1139,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/util/src/test/Circle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/util/src/test/FactoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/src/test/Shape.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="22" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -1246,54 +1202,99 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/util/src/test/Rectangle.java">
+    <entry file="file://$PROJECT_DIR$/util/src/test/SportsTest.java" />
+    <entry file="file://$PROJECT_DIR$/util/src/DAO.java" />
+    <entry file="file://$PROJECT_DIR$/util/src/entity/Circle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="100">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/util/src/test/Study.java">
+    <entry file="file://$PROJECT_DIR$/util/src/DAO/Shape.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        <state relative-caret-position="25">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/util/src/test/Student.java">
+    <entry file="file://$PROJECT_DIR$/util/src/entity/Singleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/src/entity/Rectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/src/DAO/Sports.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/src/DAO/Student.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/util/src/test/SportsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/src/test/Sports.java">
+    <entry file="file://$PROJECT_DIR$/util/src/DAO/Study.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="23" />
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/util/src/test/AdapterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+        <state relative-caret-position="230">
+          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/src/DAO/Subject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/src/entity/RealSubject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="43" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="43" />
           <folding>
-            <element signature="e#155#305#0" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
-            <element signature="e#437#438#0" expanded="true" />
-            <element signature="e#482#483#0" expanded="true" />
-            <element signature="e#552#553#0" expanded="true" />
-            <element signature="e#604#605#0" expanded="true" />
-            <element signature="e#676#677#0" expanded="true" />
-            <element signature="e#728#729#0" expanded="true" />
+            <element signature="e#123#124#0" expanded="true" />
+            <element signature="e#159#160#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/src/entity/Proxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+          <folding>
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/src/ProxyPattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -20,7 +20,7 @@ public class AdapterTest {
 
             @Override
             public void playBasketball() {
-                System.out.println("我篮球打得好");
+                System.out.print("我篮球打得好;");
             }
 
             @Override
@@ -28,6 +28,7 @@ public class AdapterTest {
                 System.out.println("我足球踢得也好");
             }
         };
+        student2.playBasketball();
         student2.playFootball();
     }
 }
